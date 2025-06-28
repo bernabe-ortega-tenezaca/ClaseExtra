@@ -1,6 +1,8 @@
 ﻿Console.WriteLine("Universidad Estatal Amazónica");
 Console.WriteLine();
 
+
+
 // //Pruebas de mensajes en consola
 
 // string nombre = "Carlos"; //inicializo la variable nombre
