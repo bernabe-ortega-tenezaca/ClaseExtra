@@ -1,7 +1,9 @@
 ﻿Console.WriteLine("Universidad Estatal Amazónica");
 Console.WriteLine();
 
+Ciudadano miciudadano = new Ciudadano("0603234567", "Ana", "Perez", "Ambato");
 
+System.Console.WriteLine(miciudadano.getCedula());
 
 // //Pruebas de mensajes en consola
 
