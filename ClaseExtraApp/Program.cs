@@ -1,9 +1,28 @@
 ﻿Console.WriteLine("Universidad Estatal Amazónica");
 Console.WriteLine();
 
-Ciudadano miciudadano = new Ciudadano("0603234567", "Ana", "Perez", "Ambato");
+//clase Persona
+//mipersona es un objeto
+Persona mipersona = new Persona("0606060606", "Ana Lucia", "Gómez Alamo", "Puyo");
+Persona mipersona1 = new Persona("232345662", "Juan Carlos", "Haro Valdez", "Miami");
 
-System.Console.WriteLine(miciudadano.getCedula());
+
+mipersona.cedula = "1234567890";
+mipersona.lugarNacimiento = "Tena";
+
+mipersona.imprimir();
+mipersona1.imprimirNombres();
+
+// System.Console.WriteLine(mipersona.cedula);
+// System.Console.WriteLine(mipersona.nombre);
+// System.Console.WriteLine(mipersona.apellido);
+// System.Console.WriteLine(mipersona.lugarNacimiento);
+
+// System.Console.WriteLine(mipersona1.nombre);
+
+// Ciudadano miciudadano = new Ciudadano("0603234567", "Ana", "Perez", "Ambato");
+
+// System.Console.WriteLine(miciudadano.getCedula());
 
 // //Pruebas de mensajes en consola
 
