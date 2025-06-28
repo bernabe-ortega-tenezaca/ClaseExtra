@@ -10,8 +10,15 @@ Persona mipersona1 = new Persona("232345662", "Juan Carlos", "Haro Valdez", "Mia
 mipersona.cedula = "1234567890";
 mipersona.lugarNacimiento = "Tena";
 
-mipersona.imprimir();
-mipersona1.imprimirNombres();
+//mipersona.imprimir();
+//mipersona1.imprimirNombres();
+
+Agenda contactos = new Agenda(100);
+contactos.agregarPersona(mipersona, 0);
+contactos.agregarPersona(mipersona1, 1);
+
+contactos.imprimirPersona(0);
+
 
 // System.Console.WriteLine(mipersona.cedula);
 // System.Console.WriteLine(mipersona.nombre);
